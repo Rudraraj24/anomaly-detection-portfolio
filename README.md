@@ -50,3 +50,13 @@ This repository will be transferred to @ZethetaIntern on Day 15 of the project.
 
 ---
 © 2025 ZeTheta Algorithms Private Limited. All Rights Reserved.
+
+
+## Repository Security Note
+
+⚠️ **Branch Protection Status:** Branch protection rules are configured but not enforced on free private repositories. These rules will be enforced upon transfer to @ZethetaIntern (GitHub Team/Enterprise account).
+
+**Configured Protections:**
+- Pull request required before merging to `main`
+- Conversation resolution required
+- Direct pushes to `main` restricted (when enforced)
