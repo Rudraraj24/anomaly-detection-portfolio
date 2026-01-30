@@ -19,12 +19,12 @@ def create_s3_bucket():
     region = os.getenv('AWS_REGION', 'ap-south-1')
     
     # Get credentials
-    access_key = os.getenv('***REMOVED***')
-    secret_key = os.getenv('***REMOVED***')
+    access_key = os.getenv('AWS_ACCESS_KEY_ID')
+    secret_key = os.getenv('AWS_SECRET_ACCESS_KEY')
     
     if not access_key or not secret_key:
         print("✗ Error: AWS credentials not found in .env file")
-        print("Please add ***REMOVED*** and ***REMOVED*** to your .env file")
+        print("Please add AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to your .env file")
         sys.exit(1)
     
     # Initialize S3 client
